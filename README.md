@@ -9,4 +9,4 @@ If you wish to test the animation code, to see that a new animation can indeed b
 
 Currently, both 'Mandelbrot_interactive.py' and 'Mandelbrot_animation.py' cannot zoom beyond 2^(-45) due to the limited precision of floating point numbers. This might be fixed at a later date.
 
-The animated PNG produced from 'Mandelbrot_animation.py' might not play on all platforms. Opening it on FireFox works the best, though Chrome has animated PNG support as well I believe.
+Animated PNGs are not supported by all platforms. Opening the 'mandelbrot_zoom.png' on FireFox works the best, though Chrome has animated PNG support as well I believe.
