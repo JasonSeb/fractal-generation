@@ -11,9 +11,10 @@ NOTES: As they are generated, the individual frames of the animation are saved i
        will not redundantly produce frames that have already been made. In this way deeper and 
        deeper zooms can be generated without having to start from scratch each time.
        
-       If you are starting a new animation centred on a completely new point, or have altered 
-       other variables like delta which influences the smoothness of the animation, you will 
-       have to manually delete the 'AnimatedFrames' folder first. 
+       If you are starting a new animation from scratch centred on a completely new point, or 
+       are still dealing with the same point but have simply altered other variables like delta 
+       (which influences the smoothness of the animation), you will have to manually delete the 
+       'AnimatedFrames' folder beforehand. 
        
        Fractal generation is computationally expensive at the best of times, and this code 
        is no exception. Animating a 2 times zoom-in seems to require a minimum of 40 frames 
@@ -24,7 +25,7 @@ NOTES: As they are generated, the individual frames of the animation are saved i
        If you wish to investigate the Mandelbrot set dynamically and in real time, the file 
        'Mandelbrot_interactive.py' might be of interest to you. As you zoom in and explore, 
        the interactive program tells you the zoom you have applied as well as the point you 
-       are centred on. As such,'Mandelbrot_interactive.py' can be used to find good candidates 
+       are centred on. As such,'Mandelbrot_interactive.py' can be used to find good candidate 
        coordinates to animate.
        
 """
