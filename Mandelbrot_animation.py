@@ -169,7 +169,7 @@ if __name__=="__main__":
         frames[i] = file_name
     
     # Generating the animated PNG of the fractal zoom. Adjusting delay will alter the speed of the PNG
-    APNG.from_files(frames, delay=40).save('mandelbrot.png')
+    APNG.from_files(frames, delay=40).save('mandelbrot_zoom.png')
 
     
 
