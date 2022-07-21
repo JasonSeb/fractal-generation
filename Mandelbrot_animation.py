@@ -119,7 +119,7 @@ if __name__=="__main__":
 
     ##### NB: Here we set the zoom at which our animation terminates,
     #####     and set the x and y coordinates to zoom in on. Adjust as desired!
-    zoom =  4
+    zoom =  2**16
     p_re =  0.360240443437614363236 
     p_im = -0.641313061064803174860
 
